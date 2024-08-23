@@ -11,7 +11,7 @@ pkgbase = displayctl-git
 	makedepends = make
 	makedepends = curl
 	makedepends = jq
-	depends = android-utils
+	depends = android-display-utils
 	provides = displayctl=null.rnull.g1b25a3923467ab17d2b8ce8c0bdc66a088e0ef34
 	conflicts = displayctl
 	source = displayctl.tar.gz::https://github.com/themartiancompany/displayctl/archive/refs/heads/master.tar.gz
