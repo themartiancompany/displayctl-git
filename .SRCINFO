@@ -1,0 +1,20 @@
+pkgbase = displayctl-git
+	pkgdesc = Manage displays.
+	pkgver = null.rnull.g1b25a3923467ab17d2b8ce8c0bdc66a088e0ef34
+	pkgrel = 1
+	url = https://github.com/themartiancompany/displayctl
+	arch = any
+	groups = hip
+	groups = hip-git
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	makedepends = curl
+	makedepends = jq
+	depends = android-utils
+	provides = displayctl=null.rnull.g1b25a3923467ab17d2b8ce8c0bdc66a088e0ef34
+	conflicts = displayctl
+	source = displayctl.tar.gz::https://github.com/themartiancompany/displayctl/archive/refs/heads/master.tar.gz
+	sha256sums = SKIP
+
+pkgname = displayctl-git
